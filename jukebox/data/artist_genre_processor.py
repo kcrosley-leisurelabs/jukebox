@@ -25,7 +25,7 @@ def create_reverse_lookup(atoi):
     return itoa
 
 class ArtistGenreProcessor():
-    def __init__(self, v3=False):
+    def __init__(self, v3=True):
         self.v3 = v3
         dirname = os.path.dirname(__file__)
         if self.v3:
